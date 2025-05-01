@@ -5,6 +5,7 @@
     margin:0;
 
 }
+
 html, body {
     height: 100%;
     margin: 0;
@@ -139,8 +140,8 @@ section{
 .yt-video{
    width: 335px;
    height: 285px;
-   display: grid;
-   grid-template-columns: repeat(auto-fit,minmax(335,1fr));
+   display: flex;
+   flex-direction: column;
    
 }
 #video{
@@ -152,8 +153,8 @@ section{
     padding:2px;
 }
 #info-video{
-    display: grid;
-    grid-template-rows: repeat(auto-fit,minmax(122,1fr));;
+    display: flex;
+    gap:15px;
 }
 #timeline{
     background-color: black;
