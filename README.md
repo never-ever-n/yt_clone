@@ -19,14 +19,11 @@ A simple front-end clone of the YouTube homepage built with just HTML and CSS. T
 
 ```bash
 /
-├── youtube.html
-├── header.css
-├── siderbar.css
-├── general.css
-├── video.css
+├── yt.html
+├── yt.css
 ├── thumnails/
     └── images/
-├── channel pictures
+├── logo
     └── images/
 ├── icons
     └── images/
